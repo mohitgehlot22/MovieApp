@@ -1,0 +1,55 @@
+body{
+  background: url('rows-red-seats-theater.jpg') no-repeat ;
+  background-size: cover;
+  background-attachment: fixed;
+}
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.word{
+  color: rgb(232, 195, 128) !important;
+}
+.navbars{
+  background: linear-gradient(to right ,rgb(138, 49, 64) , rgb(67, 124, 143));
+  position: sticky !important;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+}
+.color{
+    color: rgb(248, 244, 245) !important;
+}
+.navbar-toggler{
+  background: white !important;
+}
+.input{
+  border: 2px solid black;
+}
+.input::placeholder{
+  font-weight: bold;
+  color: black;
+}
+.pages{
+  background:linear-gradient(to right,rgb(240, 160, 174),lightblue);
+}
+.btnn{
+  background: rgb(87, 73, 148) !important;
+  color: white !important;
+}
+.add{
+  background: linear-gradient(to right , rgb(188, 125, 135),red);
+  font-weight: bold !important;
+  border: 2px solid gray !important;
+  color: white !important;
+}
+@media only screen and (min-width:250px) and (max-width:755px) {
+  .backcolor{
+    background:linear-gradient(to right ,rgb(148, 53, 69) , rgb(67, 124, 143));
+  }
+  .textheding{
+    font-size: 25px !important;
+    font-weight: bold;
+    line-height: 30px;
+  }
+}
